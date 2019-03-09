@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+
 # Runtime data
 pids
 *.pid
@@ -15,4 +16,4 @@ node_modules/
 .env.test
 
 # Temp directory
-tmp/
+# tmp/
