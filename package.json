@@ -1,0 +1,17 @@
+{
+  "name": "contract-event-watcher",
+  "version": "1.0.0",
+  "description": "Watches contract events and updates information to AWS DynamoDB.",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.13",
+    "web3": "^1.0.0-beta.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
