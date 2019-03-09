@@ -1,7 +1,7 @@
 {
   "name": "eth-event-listencache",
   "version": "1.0.0",
-  "description": "Watches contract events and updates information to AWS DynamoDB.",
+  "description": "Watches ERC-1155 contract events and updates information to Mongodb.",
   "main": "app.js",
   "dependencies": {
     "fs": "0.0.1-security",

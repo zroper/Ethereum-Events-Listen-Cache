@@ -6,7 +6,7 @@
 */
 
 const Web3 = require('web3');
-const fs = require('fs')
+const fs = require('fs');
 const MongoClient = require('mongodb').MongoClient;
 const Db = require('mongodb').Db;
 const uri = "mongodb+srv://mzkzUser:zW0Jx7me5JkWtEaJ@mzkz-dt9ay.mongodb.net/test?retryWrites=true";
