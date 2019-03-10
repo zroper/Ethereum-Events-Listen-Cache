@@ -192,7 +192,7 @@ function updateDDBFromEvents(db,collection,events) {
 		// 	counter++;
 		// }
 
-	console.log("Made " + counter + " update(s) from " + events.length + " event(s)");
+	console.log("Made " + counter + " update(s) from " + events.length + db + " event(s)");
 }
 
 
