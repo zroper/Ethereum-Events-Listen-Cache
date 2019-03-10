@@ -81,25 +81,25 @@ async function watchEvents() {
 		eventsCreate.then(function(events) {
 			var collection = "erc1155Events_create";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 		
 		eventsMelt.then(function(events) {
 			var collection = "erc1155Events_melt";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsMint.then(function(events) {
 			var collection = "erc1155Events_mint";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsSetURI.then(function(events) {
 			var collection = "erc1155Events_setURI";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsTransfer.then(function(events) {
@@ -120,35 +120,35 @@ async function watchEvents() {
 		eventsCreate.then(function(events) {
 			var collection = "erc1155Events_create";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 		
 		eventsMelt.then(function(events) {
 			var collection = "erc1155Events_melt";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsMint.then(function(events) {
 			var collection = "erc1155Events_mint";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsSetURI.then(function(events) {
 			var collection = "erc1155Events_setURI";
 			//console.log(events)
-			//updateDDBFromEvents(db,collection,events);
+			updateDDBFromEvents(db,collection,events);
 		 });
 
 		 eventsTransfer.then(function(events) {
 			var collection = "erc1155Events_transfer";
-			console.log(events)
+			//console.log(events)
 			updateDDBFromEvents(db,collection,events);
 		 })		 
 
 	} else {
-		console.log("...watching the blockcahin...")
+		console.log("...watching the blockchain...")
 	}
 }
 
