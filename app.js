@@ -117,7 +117,7 @@ async function watchEvents() {
 		let stop = latestCompleteBlock;
 		
 		console.log("Getting events from: " + start + " to " + stop);
-		let [eventsCreate, eventsMelt, eventsMint, eventsSetURI, eventsTransfer] = await checkBetweenBlocks(start, stop);
+		let [eventsCreate, eventsMelt, eventsMint, eventsSetURI, eventsTransfer, eventsUpdateName] = await checkBetweenBlocks(start, stop);
 		lastBlockNumber = currBlockNumber;
 
 		eventsCreate.then(function(events) {
