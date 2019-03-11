@@ -22,7 +22,7 @@ const db = new Db('mzkz', client);
 
 // Set up Web3 and contract connection
 //const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:7545/'));
-
+const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/fc97d03ee3b4448fbaf37ce7a19ec564'));
 let startBlockNumber = parseInt(fs.readFileSync('StartBlock.txt', 'utf8')) - 1;
 var lastBlockNumber = startBlockNumber;
 
@@ -104,7 +104,7 @@ async function watchEvents() {
 			//console.log(events)
 			updateDDBFromEvents(db,collection,events);
 		 });
-		 
+
 		 eventsUpdateName.then(function(events) {
 			var collection = "erc1155Events_updateName";
 			//console.log(events)

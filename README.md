@@ -15,5 +15,3 @@ Watches ERC-1155 contract events using Infura and updates information to MongoDB
 4. `setURI`
 5. `Transfer`
 6. `UpdateName`
-
-
